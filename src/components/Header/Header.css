@@ -1,0 +1,73 @@
+.Navigator {
+    margin-top: 0;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background: #212121;
+    height: auto;
+    font-family: 'Roboto Slab', serif;
+}
+.Navigator h3 {
+    float: left;
+    line-height: 15px;
+    margin-left: 40px;
+    color: white;
+    font-size: 26px;
+}
+
+.Navigator a {
+    background: none;
+    color: #BDBDBD;
+    text-decoration: none;
+    padding: 30px;
+    padding-left: 65px;
+    padding-right: 65px;
+    transition: all 0.5s ease-in;
+    float: right;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.Navigator a:hover {
+    background: #9E9E9E;
+}
+
+.Navigator a.selectedLink {
+    color: #fff;
+    background: #0D47A1 ;
+}
+
+@media screen and (max-width: 500px) {
+    .Navigator {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .Navigator h3{
+        font-size: 20px;
+    }
+    .Navigator a {
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Navigator {
+        margin-bottom: 10px;
+        height: 40px;
+    }
+    .Navigator h3{
+        font-size: 18px;
+        line-height: 8px;
+        margin-left: 20px;
+    }
+    .Navigator a {
+        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 3px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,15 @@
+.onTextfield {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.onButton {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.onButton button {
+    transition: all 0.7s;
+}

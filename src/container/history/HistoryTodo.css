@@ -1,0 +1,52 @@
+.History button{
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: white;
+    background: #0D47A1;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.History button:hover {
+    background: #2196F3 ;
+}
+
+.History button:active {
+    background: #00BCD4 ;
+}
+
+.History li {
+    background: linear-gradient(-90deg, rgba(3,169,244,1) 0%, rgba(63,81,181,1) 100%);;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    padding: 15px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.History span {
+    color: white;
+
+}
+
+.Action {
+    display: block;
+    justify-content: left;
+    
+}
+
+.Time {
+    display: block;
+    justify-content: left;
+    
+}
+
+.fa-exclamation-circle, .fa-clock {
+    margin-right: 20px;
+    padding-top: 10px;
+}
